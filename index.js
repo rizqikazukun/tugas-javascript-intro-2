@@ -3,7 +3,7 @@ console.log('\nAnswer 1')
 
 const myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-// 1. Array Map (print odd number) like an array for each
+// 1. Array Map (print odd number) like an Array for of
 oddNumber = []
 myArr.map(item => { if (item % 2 == 1) { oddNumber.push(item) } })
 console.log(`1. Odd Number is = ${oddNumber}`)
